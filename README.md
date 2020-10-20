@@ -6,7 +6,7 @@ Includes various sorting algorithms.
 - Selection Sort: Finds the smallest elements from the unsorted part. Worst case O(n^2).
 - Insertion Sort: Inserts each element to the sorted list. Worst case O(n^2). It has O(n) runtime if the list is already sorted. It is stable and faster than merge sort when the input is small.
 - Counting Sort: Counts the number of each element and use it to determine the position the elements should be. Worst case O(n+k) where k is the range of the input. It is good for input that is within a small range.
-- Merge Sort:
+- Merge Sort: Splits the list to half, calls itself on both sublists, and merges them. Worst case O(nlogn). It is stable, has consistent running time, and space complexity is (O(n)).
 - Quick Sort:
 - Heap Sort:
 - Tim Sort:
