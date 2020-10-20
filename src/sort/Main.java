@@ -13,7 +13,7 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             List<Integer> before = getRandomList();
             List<Integer> after = new ArrayList<>(before);;
-            BubbleSort.sort(after);
+            InsertionSort.sort(after);
             List<Integer> sorted = new ArrayList<>(before);
             Collections.sort(sorted);
             if (!after.equals(sorted)) {
